@@ -1,60 +1,27 @@
-Home,Away
-Atlanta United,L.A. Galaxy
-Toronto,Montreal
-New York City FC,Houston
-New England,Toronto
-DC United,San Jose
-Philadelphia,Chicago
-Columbus,New York
-Minnesota United,FC Dallas
-Salt Lake,Seattle
-Vancouver,Colorado
-Kansas City,L.A. Galaxy
-Atlanta United,Montreal
-Portland,Orlando City
-Atlanta United,Philadelphia
-Montreal,New York City FC
-New York,DC United
-Orlando City,New England
-FC Dallas,Colorado
-Houston,L.A. Galaxy
-San Jose,Chicago
-Seattle,Vancouver
-Orlando City,FC Dallas
-Toronto,New York
-Columbus,DC United
-New England,Atlanta United
-Chicago,New York City FC
-Houston,Minnesota United
-Colorado,Montreal
-Kansas City,Vancouver
-L.A. Galaxy,Salt Lake
-San Jose,Portland
-Philadelphia,Seattle
-Atlanta United,Minnesota United
-New York,Vancouver
-Minnesota United,Kansas City
-Colorado,FC Dallas
-Houston,Kansas City
-Chicago,Philadelphia
-New England,New York City FC
-New York,Atlanta United
-Orlando City,Columbus
-Toronto,Montreal
-Colorado,Salt Lake
-Kansas City,Houston
-L.A. Galaxy,Minnesota United
-Seattle,FC Dallas
-Vancouver,San Jose
-Portland,DC United
-Atlanta United,Toronto
-DC United,New York
-Montreal,New England
-New York City FC,Columbus
-Philadelphia,Orlando City
-FC Dallas,L.A. Galaxy
-Salt Lake,Kansas City
-Portland,Vancouver
-San Jose,Minnesota United
-Seattle,Colorado
-Houston,Chicago
+﻿Home,Away
+Bolivia,Uruguay
+Venezuela,Peru
+Colombia,Paraguay
+Argentina,Brazil
+Chile,Ecuador
+Chile,Argentina
+Colombia,Peru
+Ecuador,Brazil
+Paraguay,Uruguay
+Venezuela,Bolivia
+Argentina,Colombia
+Bolivia,Chile
+Brazil,Paraguay
+Peru,Ecuador
+Uruguay,Venezuela
+Argentina,Venezuela
+Brazil,Chile
+Colombia,Bolivia
+Paraguay,Ecuador
+Uruguay,Peru
+Bolivia,Brazil
+Chile,Uruguay
+Ecuador,Argentina
+Peru,Paraguay
+Venezuela,Colombia
+Brazil,Argentina

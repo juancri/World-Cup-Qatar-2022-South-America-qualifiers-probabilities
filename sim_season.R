@@ -16,7 +16,7 @@ SimGame <- function(home.prob, away.prob, tie.prob) {
 }
 
 ## this is one season run
-predictions <- matrix(nrow = 22, ncol = 10000)
+predictions <- matrix(nrow = 10, ncol = 10000)
 for (ind in seq(1,10000)) {
     pred.points <- current.points 
     for (i in seq(1,nrow(sched.pred))) {
@@ -51,7 +51,7 @@ write.csv(table(sup)/10000*100, 'Supporters Shield Probs.csv')
 averages <- c()
 tops <- c()
 bottoms <- c()
-for (row in seq(1:22)){
+for (row in seq(1:10)){
     ave.points <- sum(pp[row, 4:10003])/10000
     averages <- c(averages, ave.points)
     #df <- data.frame(pp[row, ])
@@ -67,29 +67,29 @@ p.pred <- setNames(p.pred, c('team', 'average.points', 'upper.range', 'lower.ran
 write.csv(p.pred, 'Average Point Predictions.csv')
 
 ## calculate playoff probabilities
-east <- filter(pp, conference == 'E')
+#east <- filter(pp, conference == 'E')
 west <- filter(pp, conference == 'W')
 
 ## get goals to settle ties, for now random i guess is fine
 set.seed(6564)
 ## east playoff probabilities
-playoffs <- c()
-for (row in seq(1:11)) {
-    po <- 0
-    for (col in seq(4:10003)) {
-        if (rank(east[, col], ties = 'random')[row] >= 6){
-            po <- po + 1
-        }
-    }
-    playoffs <- c(playoffs, po)
-}
-east.probs <- cbind.data.frame(east$team, playoffs/10000*100)
-east.probs <- arrange(setNames(east.probs, c('team', 'playoff.prob')), -playoff.prob)
+#playoffs <- c()
+#for (row in seq(1:10)) {
+#    po <- 0
+#    for (col in seq(4:10003)) {
+#        if (rank(east[, col], ties = 'random')[row] >= 6){
+#            po <- po + 1
+#        }
+#    }
+#    playoffs <- c(playoffs, po)
+#}
+#east.probs <- cbind.data.frame(east$team, playoffs/10000*100)
+#east.probs <- arrange(setNames(east.probs, c('team', 'playoff.prob')), -playoff.prob)
 
 
 ## west playoff probabilities
 playoffs <- c()
-for (row in seq(1:11)) {
+for (row in seq(1:10)) {
     po <- 0
     for (col in seq(4:10003)) {
         if (rank(west[, col], ties = 'random')[row] >= 6){
@@ -110,38 +110,31 @@ write.csv(pp, 'Simmed Season.csv')
 pp <- data.frame(read.csv('Simmed Season.csv', stringsAsFactors = FALSE))
 pp$X.1 <- NULL
 ## basically, transform the points into seeds by conference for each
-east <- filter(pp, conference == 'E')
+#east <- filter(pp, conference == 'E')
 west <- filter(pp, conference == 'W')
 
 ## get goals to determine ties
 set.seed(6564)
 ## transform points totals into ranks
 ## this should be vectorized
-for (col in seq(5,10004)) {
-    east[, col] <- 12-rank(east[, col], ties.method = 'random')
-}
+#for (col in seq(5,10004)) {
+#    east[, col] <- 12-rank(east[, col], ties.method = 'random')
+#}
 for (col in seq(5,10004)) {
     west[, col] <- 12-rank(west[, col], ties.method = 'random')
 }
 
 df <- data.frame()
-empty.seeds <- data.frame('Var.1' = seq(1, 11), 'value' = 0)
+empty.seeds <- data.frame('Var.1' = seq(1, 10), 'value' = 0)
 # do it in data.table because I forgot how dplyr works over the last year
 library(data.table)
-for (row in seq(1, 11)) {
-    east.team <- east[row, 2]
-    east.probs <- melt(table(as.numeric(east[row, 5:10004])))
-    new.east <- rbind(east.probs, empty.seeds)
-    new.east$team <- east.team
-    new.east$conference <- 'E' 
-    #print(east.probs/10000)
+for (row in seq(1, 10)) {
     west.team <- west[row, 2]
-    west.probs <- melt(table(as.numeric(west[row, 5:10004])))
+    west.probs <- melt.array(table(as.numeric(west[row, 5:10004])))
     new.west <- rbind(west.probs, empty.seeds)
     new.west$team <- west.team
     new.west$conference <- 'W'
-    df <- rbind.data.frame(df, new.west, new.east)
-    #print(west.probs/10000)
+    df <- rbind.data.frame(df, new.west)
 }
 dt <- data.table(df)
 dt[, value := value/10000]

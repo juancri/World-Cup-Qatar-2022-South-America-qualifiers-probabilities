@@ -1,631 +1,129 @@
 "","date","team","opponent","goals","home.adv"
-"1",2017-03-04,"Portland","Minnesota United",5,1
-"2",2017-03-04,"Columbus","Chicago",1,1
-"3",2017-03-04,"L.A. Galaxy","FC Dallas",1,1
-"4",2017-03-04,"Salt Lake","Toronto",0,1
-"5",2017-03-04,"Colorado","New England",1,1
-"6",2017-03-04,"Minnesota United","Portland",1,0
-"7",2017-03-04,"Chicago","Columbus",1,0
-"8",2017-03-04,"FC Dallas","L.A. Galaxy",2,0
-"9",2017-03-04,"Toronto","Salt Lake",0,0
-"10",2017-03-04,"New England","Colorado",0,0
-"11",2017-03-05,"DC United","Kansas City",0,1
-"12",2017-03-05,"Houston","Seattle",2,1
-"13",2017-03-05,"San Jose","Montreal",1,1
-"14",2017-03-05,"Orlando City","New York City FC",1,1
-"15",2017-03-05,"Kansas City","DC United",0,0
-"16",2017-03-05,"Seattle","Houston",1,0
-"17",2017-03-05,"Montreal","San Jose",0,0
-"18",2017-03-05,"New York City FC","Orlando City",0,0
-"19",2017-03-06,"Atlanta United","New York",1,1
-"20",2017-03-06,"Vancouver","Philadelphia",0,1
-"21",2017-03-06,"New York","Atlanta United",2,0
-"22",2017-03-06,"Philadelphia","Vancouver",0,0
-"23",2017-03-11,"Chicago","Salt Lake",2,1
-"24",2017-03-11,"New York","Colorado",1,1
-"25",2017-03-11,"Philadelphia","Toronto",2,1
-"26",2017-03-11,"Salt Lake","Chicago",0,0
-"27",2017-03-11,"Colorado","New York",0,0
-"28",2017-03-11,"Toronto","Philadelphia",2,0
-"29",2017-03-12,"Houston","Columbus",3,1
-"30",2017-03-12,"Montreal","Seattle",2,1
-"31",2017-03-12,"Kansas City","FC Dallas",0,1
-"32",2017-03-12,"San Jose","Vancouver",3,1
-"33",2017-03-12,"New York City FC","DC United",4,1
-"34",2017-03-12,"Minnesota United","Atlanta United",1,1
-"35",2017-03-12,"L.A. Galaxy","Portland",0,1
-"36",2017-03-12,"Columbus","Houston",1,0
-"37",2017-03-12,"Seattle","Montreal",2,0
-"38",2017-03-12,"FC Dallas","Kansas City",0,0
-"39",2017-03-12,"Vancouver","San Jose",2,0
-"40",2017-03-12,"DC United","New York City FC",0,0
-"41",2017-03-12,"Atlanta United","Minnesota United",6,0
-"42",2017-03-12,"Portland","L.A. Galaxy",1,0
-"43",2017-03-18,"New York City FC","Montreal",1,1
-"44",2017-03-18,"Atlanta United","Chicago",4,1
-"45",2017-03-18,"Vancouver","Toronto",0,1
-"46",2017-03-18,"DC United","Columbus",0,1
-"47",2017-03-18,"Orlando City","Philadelphia",2,1
-"48",2017-03-18,"Montreal","New York City FC",1,0
-"49",2017-03-18,"Chicago","Atlanta United",0,0
-"50",2017-03-18,"Toronto","Vancouver",2,0
-"51",2017-03-18,"Columbus","DC United",2,0
-"52",2017-03-18,"Philadelphia","Orlando City",1,0
-"53",2017-03-19,"FC Dallas","New England",2,1
-"54",2017-03-19,"Kansas City","San Jose",2,1
-"55",2017-03-19,"Colorado","Minnesota United",2,1
-"56",2017-03-19,"Salt Lake","L.A. Galaxy",1,1
-"57",2017-03-19,"Portland","Houston",4,1
-"58",2017-03-19,"Seattle","New York",3,1
-"59",2017-03-19,"New England","FC Dallas",1,0
-"60",2017-03-19,"San Jose","Kansas City",1,0
-"61",2017-03-19,"Minnesota United","Colorado",2,0
-"62",2017-03-19,"L.A. Galaxy","Salt Lake",2,0
-"63",2017-03-19,"Houston","Portland",2,0
-"64",2017-03-19,"New York","Seattle",1,0
-"65",2017-03-25,"New England","Minnesota United",5,1
-"66",2017-03-25,"New York","Salt Lake",0,1
-"67",2017-03-25,"Columbus","Portland",3,1
-"68",2017-03-25,"Minnesota United","New England",2,0
-"69",2017-03-25,"Salt Lake","New York",0,0
-"70",2017-03-25,"Portland","Columbus",2,0
-"71",2017-04-01,"Toronto","Kansas City",0,1
-"72",2017-04-01,"Seattle","Atlanta United",0,1
-"73",2017-04-01,"New York City FC","San Jose",2,1
-"74",2017-04-01,"Chicago","Montreal",2,1
-"75",2017-04-01,"Columbus","Orlando City",2,1
-"76",2017-04-01,"Kansas City","Toronto",0,0
-"77",2017-04-01,"Atlanta United","Seattle",0,0
-"78",2017-04-01,"San Jose","New York City FC",1,0
-"79",2017-04-01,"Montreal","Chicago",2,0
-"80",2017-04-01,"Orlando City","Columbus",0,0
-"81",2017-04-02,"DC United","Philadelphia",2,1
-"82",2017-04-02,"Minnesota United","Salt Lake",4,1
-"83",2017-04-02,"Houston","New York",4,1
-"84",2017-04-02,"Vancouver","L.A. Galaxy",4,1
-"85",2017-04-02,"Philadelphia","DC United",1,0
-"86",2017-04-02,"Salt Lake","Minnesota United",2,0
-"87",2017-04-02,"New York","Houston",1,0
-"88",2017-04-02,"L.A. Galaxy","Vancouver",2,0
-"89",2017-04-03,"Portland","New England",1,1
-"90",2017-04-03,"New England","Portland",1,0
-"91",2017-04-08,"L.A. Galaxy","Montreal",2,1
-"92",2017-04-08,"New England","Houston",2,1
-"93",2017-04-08,"Chicago","Columbus",1,1
-"94",2017-04-08,"DC United","New York City FC",2,1
-"95",2017-04-08,"Montreal","L.A. Galaxy",0,0
-"96",2017-04-08,"Houston","New England",0,0
-"97",2017-04-08,"Columbus","Chicago",0,0
-"98",2017-04-08,"New York City FC","DC United",1,0
-"99",2017-04-09,"Philadelphia","Portland",1,1
-"100",2017-04-09,"Toronto","Atlanta United",2,1
-"101",2017-04-09,"FC Dallas","Minnesota United",2,1
-"102",2017-04-09,"Salt Lake","Vancouver",3,1
-"103",2017-04-09,"San Jose","Seattle",1,1
-"104",2017-04-09,"Orlando City","New York",1,1
-"105",2017-04-09,"Portland","Philadelphia",3,0
-"106",2017-04-09,"Atlanta United","Toronto",2,0
-"107",2017-04-09,"Minnesota United","FC Dallas",0,0
-"108",2017-04-09,"Vancouver","Salt Lake",0,0
-"109",2017-04-09,"Seattle","San Jose",1,0
-"110",2017-04-09,"New York","Orlando City",0,0
-"111",2017-04-10,"Kansas City","Colorado",3,1
-"112",2017-04-10,"Colorado","Kansas City",1,0
-"113",2017-04-15,"Philadelphia","New York City FC",0,1
-"114",2017-04-15,"Vancouver","Seattle",2,1
-"115",2017-04-15,"San Jose","FC Dallas",1,1
-"116",2017-04-15,"Montreal","Atlanta United",2,1
-"117",2017-04-15,"Orlando City","L.A. Galaxy",2,1
-"118",2017-04-15,"Chicago","New England",3,1
-"119",2017-04-15,"New York City FC","Philadelphia",2,0
-"120",2017-04-15,"Seattle","Vancouver",1,0
-"121",2017-04-15,"FC Dallas","San Jose",1,0
-"122",2017-04-15,"Atlanta United","Montreal",1,0
-"123",2017-04-15,"L.A. Galaxy","Orlando City",1,0
-"124",2017-04-15,"New England","Chicago",0,0
-"125",2017-04-16,"New York","DC United",2,1
-"126",2017-04-16,"Columbus","Toronto",2,1
-"127",2017-04-16,"Houston","Minnesota United",2,1
-"128",2017-04-16,"Colorado","Salt Lake",1,1
-"129",2017-04-16,"Portland","Kansas City",0,1
-"130",2017-04-16,"DC United","New York",0,0
-"131",2017-04-16,"Toronto","Columbus",1,0
-"132",2017-04-16,"Minnesota United","Houston",2,0
-"133",2017-04-16,"Salt Lake","Colorado",2,0
-"134",2017-04-16,"Kansas City","Portland",1,0
-"135",2017-04-20,"New England","San Jose",0,1
-"136",2017-04-20,"San Jose","New England",0,0
-"137",2017-04-22,"Toronto","Chicago",3,1
-"138",2017-04-22,"Philadelphia","Montreal",3,1
-"139",2017-04-22,"Houston","San Jose",2,1
-"140",2017-04-22,"Portland","Vancouver",2,1
-"141",2017-04-22,"Chicago","Toronto",1,0
-"142",2017-04-22,"Montreal","Philadelphia",3,0
-"143",2017-04-22,"San Jose","Houston",0,0
-"144",2017-04-22,"Vancouver","Portland",1,0
-"145",2017-04-23,"New England","DC United",2,1
-"146",2017-04-23,"New York","Columbus",2,1
-"147",2017-04-23,"FC Dallas","Kansas City",1,1
-"148",2017-04-23,"Salt Lake","Atlanta United",1,1
-"149",2017-04-23,"New York City FC","Orlando City",1,1
-"150",2017-04-23,"L.A. Galaxy","Seattle",0,1
-"151",2017-04-23,"Minnesota United","Colorado",1,1
-"152",2017-04-23,"DC United","New England",2,0
-"153",2017-04-23,"Columbus","New York",0,0
-"154",2017-04-23,"Kansas City","FC Dallas",0,0
-"155",2017-04-23,"Atlanta United","Salt Lake",3,0
-"156",2017-04-23,"Orlando City","New York City FC",2,0
-"157",2017-04-23,"Seattle","L.A. Galaxy",3,0
-"158",2017-04-23,"Colorado","Minnesota United",0,0
-"159",2017-04-29,"Toronto","Houston",2,1
-"160",2017-04-29,"Montreal","Vancouver",1,1
-"161",2017-04-29,"Orlando City","Colorado",2,1
-"162",2017-04-29,"Houston","Toronto",0,0
-"163",2017-04-29,"Vancouver","Montreal",2,0
-"164",2017-04-29,"Colorado","Orlando City",0,0
-"165",2017-04-30,"New York","Chicago",2,1
-"166",2017-04-30,"Columbus","New York City FC",2,1
-"167",2017-04-30,"Minnesota United","San Jose",0,1
-"168",2017-04-30,"FC Dallas","Portland",2,1
-"169",2017-04-30,"Kansas City","Salt Lake",3,1
-"170",2017-04-30,"Seattle","New England",3,1
-"171",2017-04-30,"L.A. Galaxy","Philadelphia",0,1
-"172",2017-04-30,"Atlanta United","DC United",1,1
-"173",2017-04-30,"Chicago","New York",1,0
-"174",2017-04-30,"New York City FC","Columbus",3,0
-"175",2017-04-30,"San Jose","Minnesota United",1,0
-"176",2017-04-30,"Portland","FC Dallas",2,0
-"177",2017-04-30,"Salt Lake","Kansas City",0,0
-"178",2017-04-30,"New England","Seattle",3,0
-"179",2017-04-30,"Philadelphia","L.A. Galaxy",0,0
-"180",2017-04-30,"DC United","Atlanta United",3,0
-"181",2017-05-04,"Toronto","Orlando City",2,1
-"182",2017-05-04,"Kansas City","New York",2,1
-"183",2017-05-04,"Orlando City","Toronto",1,0
-"184",2017-05-04,"New York","Kansas City",0,0
-"185",2017-05-06,"Colorado","Vancouver",0,1
-"186",2017-05-06,"Seattle","Toronto",0,1
-"187",2017-05-06,"DC United","Montreal",0,1
-"188",2017-05-06,"Vancouver","Colorado",1,0
-"189",2017-05-06,"Toronto","Seattle",1,0
-"190",2017-05-06,"Montreal","DC United",1,0
-"191",2017-05-07,"Philadelphia","New York",3,1
-"192",2017-05-07,"Columbus","New England",2,1
-"193",2017-05-07,"Houston","Orlando City",4,1
-"194",2017-05-07,"Salt Lake","FC Dallas",0,1
-"195",2017-05-07,"L.A. Galaxy","Chicago",2,1
-"196",2017-05-07,"San Jose","Portland",3,1
-"197",2017-05-07,"Minnesota United","Kansas City",2,1
-"198",2017-05-07,"New York City FC","Atlanta United",3,1
-"199",2017-05-07,"New York","Philadelphia",0,0
-"200",2017-05-07,"New England","Columbus",0,0
-"201",2017-05-07,"Orlando City","Houston",0,0
-"202",2017-05-07,"FC Dallas","Salt Lake",3,0
-"203",2017-05-07,"Chicago","L.A. Galaxy",2,0
-"204",2017-05-07,"Portland","San Jose",0,0
-"205",2017-05-07,"Kansas City","Minnesota United",0,0
-"206",2017-05-07,"Atlanta United","New York City FC",1,0
-"207",2017-05-11,"Columbus","Toronto",1,1
-"208",2017-05-11,"Toronto","Columbus",2,0
-"209",2017-05-13,"Houston","Vancouver",2,1
-"210",2017-05-13,"Toronto","Minnesota United",3,1
-"211",2017-05-13,"Colorado","San Jose",3,1
-"212",2017-05-13,"Montreal","Columbus",2,1
-"213",2017-05-13,"Vancouver","Houston",1,0
-"214",2017-05-13,"Minnesota United","Toronto",2,0
-"215",2017-05-13,"San Jose","Colorado",0,0
-"216",2017-05-13,"Columbus","Montreal",3,0
-"217",2017-05-14,"DC United","Philadelphia",0,1
-"218",2017-05-14,"Orlando City","Kansas City",2,1
-"219",2017-05-14,"New England","Salt Lake",4,1
-"220",2017-05-14,"Chicago","Seattle",4,1
-"221",2017-05-14,"Portland","Atlanta United",1,1
-"222",2017-05-14,"New York","L.A. Galaxy",1,1
-"223",2017-05-14,"Philadelphia","DC United",4,0
-"224",2017-05-14,"Kansas City","Orlando City",2,0
-"225",2017-05-14,"Salt Lake","New England",0,0
-"226",2017-05-14,"Seattle","Chicago",1,0
-"227",2017-05-14,"Atlanta United","Portland",1,0
-"228",2017-05-14,"L.A. Galaxy","New York",3,0
-"229",2017-05-15,"FC Dallas","New York City FC",1,1
-"230",2017-05-15,"New York City FC","FC Dallas",1,0
-"231",2017-05-18,"Philadelphia","Houston",2,1
-"232",2017-05-18,"Chicago","Colorado",3,1
-"233",2017-05-18,"Kansas City","Seattle",3,1
-"234",2017-05-18,"Salt Lake","New York City FC",2,1
-"235",2017-05-18,"San Jose","Orlando City",1,1
-"236",2017-05-18,"Houston","Philadelphia",0,0
-"237",2017-05-18,"Colorado","Chicago",0,0
-"238",2017-05-18,"Seattle","Kansas City",0,0
-"239",2017-05-18,"New York City FC","Salt Lake",1,0
-"240",2017-05-18,"Orlando City","San Jose",1,0
-"241",2017-05-20,"New York","Toronto",1,1
-"242",2017-05-20,"Montreal","Portland",4,1
-"243",2017-05-20,"DC United","Chicago",0,1
-"244",2017-05-20,"Seattle","Salt Lake",1,1
-"245",2017-05-20,"Toronto","New York",1,0
-"246",2017-05-20,"Portland","Montreal",1,0
-"247",2017-05-20,"Chicago","DC United",1,0
-"248",2017-05-20,"Salt Lake","Seattle",0,0
-"249",2017-05-21,"Philadelphia","Colorado",2,1
-"250",2017-05-21,"Vancouver","Kansas City",2,1
-"251",2017-05-21,"Atlanta United","Houston",4,1
-"252",2017-05-21,"FC Dallas","San Jose",0,1
-"253",2017-05-21,"New England","Columbus",2,1
-"254",2017-05-21,"Minnesota United","L.A. Galaxy",1,1
-"255",2017-05-21,"Colorado","Philadelphia",1,0
-"256",2017-05-21,"Kansas City","Vancouver",0,0
-"257",2017-05-21,"Houston","Atlanta United",1,0
-"258",2017-05-21,"San Jose","FC Dallas",1,0
-"259",2017-05-21,"Columbus","New England",1,0
-"260",2017-05-21,"L.A. Galaxy","Minnesota United",2,0
-"261",2017-05-22,"Orlando City","New York City FC",0,1
-"262",2017-05-22,"New York City FC","Orlando City",3,0
-"263",2017-05-26,"Chicago","FC Dallas",2,1
-"264",2017-05-26,"FC Dallas","Chicago",1,0
-"265",2017-05-27,"Toronto","Columbus",5,1
-"266",2017-05-27,"Seattle","Portland",1,1
-"267",2017-05-27,"Columbus","Toronto",0,0
-"268",2017-05-27,"Portland","Seattle",0,0
-"269",2017-05-28,"Vancouver","DC United",0,1
-"270",2017-05-28,"New York","New England",2,1
-"271",2017-05-28,"Minnesota United","Orlando City",1,1
-"272",2017-05-28,"Colorado","Kansas City",1,1
-"273",2017-05-28,"Salt Lake","Philadelphia",1,1
-"274",2017-05-28,"San Jose","L.A. Galaxy",2,1
-"275",2017-05-28,"Atlanta United","New York City FC",3,1
-"276",2017-05-28,"DC United","Vancouver",1,0
-"277",2017-05-28,"New England","New York",1,0
-"278",2017-05-28,"Orlando City","Minnesota United",0,0
-"279",2017-05-28,"Kansas City","Colorado",0,0
-"280",2017-05-28,"Philadelphia","Salt Lake",0,0
-"281",2017-05-28,"L.A. Galaxy","San Jose",4,0
-"282",2017-05-28,"New York City FC","Atlanta United",1,0
-"283",2017-05-29,"FC Dallas","Houston",0,1
-"284",2017-05-29,"Houston","FC Dallas",0,0
-"285",2017-06-01,"New York City FC","New England",2,1
-"286",2017-06-01,"Columbus","Seattle",3,1
-"287",2017-06-01,"Orlando City","DC United",2,1
-"288",2017-06-01,"Houston","Salt Lake",5,1
-"289",2017-06-01,"New England","New York City FC",2,0
-"290",2017-06-01,"Seattle","Columbus",0,0
-"291",2017-06-01,"DC United","Orlando City",0,0
-"292",2017-06-01,"Salt Lake","Houston",1,0
-"293",2017-06-03,"Portland","San Jose",2,1
-"294",2017-06-03,"New York City FC","Philadelphia",2,1
-"295",2017-06-03,"Kansas City","Minnesota United",3,1
-"296",2017-06-03,"Vancouver","Atlanta United",3,1
-"297",2017-06-03,"San Jose","Portland",0,0
-"298",2017-06-03,"Philadelphia","New York City FC",1,0
-"299",2017-06-03,"Minnesota United","Kansas City",0,0
-"300",2017-06-03,"Atlanta United","Vancouver",1,0
-"301",2017-06-04,"DC United","L.A. Galaxy",0,1
-"302",2017-06-04,"New England","Toronto",3,1
-"303",2017-06-04,"Montreal","New York",1,1
-"304",2017-06-04,"FC Dallas","Salt Lake",6,1
-"305",2017-06-04,"Colorado","Columbus",2,1
-"306",2017-06-04,"L.A. Galaxy","DC United",0,0
-"307",2017-06-04,"Toronto","New England",0,0
-"308",2017-06-04,"New York","Montreal",0,0
-"309",2017-06-04,"Salt Lake","FC Dallas",2,0
-"310",2017-06-04,"Columbus","Colorado",1,0
-"311",2017-06-05,"Orlando City","Chicago",0,1
-"312",2017-06-05,"Seattle","Houston",1,1
-"313",2017-06-05,"Chicago","Orlando City",0,0
-"314",2017-06-05,"Houston","Seattle",0,0
-"315",2017-06-10,"Chicago","Atlanta United",2,1
-"316",2017-06-10,"Atlanta United","Chicago",0,0
-"317",2017-06-11,"Kansas City","Montreal",1,1
-"318",2017-06-11,"Portland","FC Dallas",2,1
-"319",2017-06-11,"Montreal","Kansas City",1,0
-"320",2017-06-11,"FC Dallas","Portland",0,0
-"321",2017-06-17,"New York City FC","Seattle",2,1
-"322",2017-06-17,"L.A. Galaxy","Houston",2,1
-"323",2017-06-17,"Seattle","New York City FC",1,0
-"324",2017-06-17,"Houston","L.A. Galaxy",2,0
-"325",2017-06-18,"Atlanta United","Columbus",3,1
-"326",2017-06-18,"New England","Chicago",1,1
-"327",2017-06-18,"Orlando City","Montreal",3,1
-"328",2017-06-18,"Toronto","DC United",2,1
-"329",2017-06-18,"San Jose","Kansas City",0,1
-"330",2017-06-18,"Colorado","Portland",2,1
-"331",2017-06-18,"Vancouver","FC Dallas",1,1
-"332",2017-06-18,"Salt Lake","Minnesota United",1,1
-"333",2017-06-18,"Philadelphia","New York",0,1
-"334",2017-06-18,"Columbus","Atlanta United",1,0
-"335",2017-06-18,"Chicago","New England",2,0
-"336",2017-06-18,"Montreal","Orlando City",3,0
-"337",2017-06-18,"DC United","Toronto",0,0
-"338",2017-06-18,"Kansas City","San Jose",0,0
-"339",2017-06-18,"Portland","Colorado",1,0
-"340",2017-06-18,"FC Dallas","Vancouver",1,0
-"341",2017-06-18,"Minnesota United","Salt Lake",0,0
-"342",2017-06-18,"New York","Philadelphia",2,0
-"343",2017-06-22,"DC United","Atlanta United",2,1
-"344",2017-06-22,"Minnesota United","Portland",3,1
-"345",2017-06-22,"Colorado","L.A. Galaxy",1,1
-"346",2017-06-22,"Seattle","Orlando City",1,1
-"347",2017-06-22,"Atlanta United","DC United",1,0
-"348",2017-06-22,"Portland","Minnesota United",2,0
-"349",2017-06-22,"L.A. Galaxy","Colorado",3,0
-"350",2017-06-22,"Orlando City","Seattle",1,0
-"351",2017-06-24,"Toronto","New England",2,1
-"352",2017-06-24,"Houston","FC Dallas",1,1
-"353",2017-06-24,"New York","New York City FC",0,1
-"354",2017-06-24,"New England","Toronto",0,0
-"355",2017-06-24,"FC Dallas","Houston",1,0
-"356",2017-06-24,"New York City FC","New York",2,0
-"357",2017-06-25,"Atlanta United","Colorado",1,1
-"358",2017-06-25,"Philadelphia","DC United",1,1
-"359",2017-06-25,"Columbus","Montreal",4,1
-"360",2017-06-25,"Minnesota United","Vancouver",2,1
-"361",2017-06-25,"Chicago","Orlando City",4,1
-"362",2017-06-25,"L.A. Galaxy","Kansas City",1,1
-"363",2017-06-25,"San Jose","Salt Lake",2,1
-"364",2017-06-25,"Colorado","Atlanta United",0,0
-"365",2017-06-25,"DC United","Philadelphia",0,0
-"366",2017-06-25,"Montreal","Columbus",1,0
-"367",2017-06-25,"Vancouver","Minnesota United",2,0
-"368",2017-06-25,"Orlando City","Chicago",0,0
-"369",2017-06-25,"Kansas City","L.A. Galaxy",2,0
-"370",2017-06-25,"Salt Lake","San Jose",1,0
-"371",2017-06-26,"Portland","Seattle",2,1
-"372",2017-06-26,"Seattle","Portland",2,0
-"373",2017-06-30,"New York City FC","Minnesota United",3,1
-"374",2017-06-30,"Minnesota United","New York City FC",1,0
-"375",2017-07-01,"Salt Lake","Orlando City",0,1
-"376",2017-07-01,"Orlando City","Salt Lake",1,0
-"377",2017-07-02,"Chicago","Vancouver",4,1
-"378",2017-07-02,"Kansas City","Portland",1,1
-"379",2017-07-02,"Montreal","DC United",2,1
-"380",2017-07-02,"FC Dallas","Toronto",3,1
-"381",2017-07-02,"Columbus","Atlanta United",0,1
-"382",2017-07-02,"Colorado","Houston",3,1
-"383",2017-07-02,"San Jose","L.A. Galaxy",2,1
-"384",2017-07-02,"Philadelphia","New England",3,1
-"385",2017-07-02,"Vancouver","Chicago",0,0
-"386",2017-07-02,"Portland","Kansas City",1,0
-"387",2017-07-02,"DC United","Montreal",0,0
-"388",2017-07-02,"Toronto","FC Dallas",1,0
-"389",2017-07-02,"Atlanta United","Columbus",2,0
-"390",2017-07-02,"Houston","Colorado",1,0
-"391",2017-07-02,"L.A. Galaxy","San Jose",1,0
-"392",2017-07-02,"New England","Philadelphia",0,0
-"393",2017-07-05,"Atlanta United","San Jose",4,1
-"394",2017-07-05,"Minnesota United","Columbus",0,1
-"395",2017-07-05,"FC Dallas","DC United",4,1
-"396",2017-07-05,"Colorado","Seattle",1,1
-"397",2017-07-05,"L.A. Galaxy","Salt Lake",2,1
-"398",2017-07-05,"San Jose","Atlanta United",2,0
-"399",2017-07-05,"Columbus","Minnesota United",1,0
-"400",2017-07-05,"DC United","FC Dallas",2,0
-"401",2017-07-05,"Seattle","Colorado",3,0
-"402",2017-07-05,"Salt Lake","L.A. Galaxy",6,0
-"403",2017-07-06,"New England","New York",2,1
-"404",2017-07-06,"Orlando City","Toronto",1,1
-"405",2017-07-06,"Houston","Montreal",3,1
-"406",2017-07-06,"Vancouver","New York City FC",3,1
-"407",2017-07-06,"Portland","Chicago",2,1
-"408",2017-07-06,"New York","New England",3,0
-"409",2017-07-06,"Toronto","Orlando City",3,0
-"410",2017-07-06,"Montreal","Houston",1,0
-"411",2017-07-06,"New York City FC","Vancouver",2,0
-"412",2017-07-06,"Chicago","Portland",2,0
-"413",2017-07-07,"Kansas City","Philadelphia",1,1
-"414",2017-07-07,"Philadelphia","Kansas City",1,0
-"415",2017-07-20,"New York City FC","Toronto",2,1
-"416",2017-07-20,"New York","San Jose",5,1
-"417",2017-07-20,"Montreal","Philadelphia",2,1
-"418",2017-07-20,"Minnesota United","Houston",0,1
-"419",2017-07-20,"L.A. Galaxy","Vancouver",0,1
-"420",2017-07-20,"Seattle","DC United",4,1
-"421",2017-07-20,"Portland","Salt Lake",1,1
-"422",2017-07-20,"Toronto","New York City FC",2,0
-"423",2017-07-20,"San Jose","New York",1,0
-"424",2017-07-20,"Philadelphia","Montreal",1,0
-"425",2017-07-20,"Houston","Minnesota United",0,0
-"426",2017-07-20,"Vancouver","L.A. Galaxy",1,0
-"427",2017-07-20,"DC United","Seattle",3,0
-"428",2017-07-20,"Salt Lake","Portland",4,0
-"429",2017-07-22,"Orlando City","Atlanta United",0,1
-"430",2017-07-22,"New York City FC","Chicago",2,1
-"431",2017-07-22,"Minnesota United","New York",0,1
-"432",2017-07-22,"Atlanta United","Orlando City",1,0
-"433",2017-07-22,"Chicago","New York City FC",1,0
-"434",2017-07-22,"New York","Minnesota United",3,0
-"435",2017-07-23,"DC United","Houston",1,1
-"436",2017-07-23,"Toronto","Colorado",1,1
-"437",2017-07-23,"Columbus","Philadelphia",1,1
-"438",2017-07-23,"New England","L.A. Galaxy",4,1
-"439",2017-07-23,"Montreal","FC Dallas",1,1
-"440",2017-07-23,"Salt Lake","Kansas City",1,1
-"441",2017-07-23,"Vancouver","Portland",1,1
-"442",2017-07-23,"Houston","DC United",3,0
-"443",2017-07-23,"Colorado","Toronto",1,0
-"444",2017-07-23,"Philadelphia","Columbus",0,0
-"445",2017-07-23,"L.A. Galaxy","New England",3,0
-"446",2017-07-23,"FC Dallas","Montreal",2,0
-"447",2017-07-23,"Kansas City","Salt Lake",1,0
-"448",2017-07-23,"Portland","Vancouver",2,0
-"449",2017-07-24,"Seattle","San Jose",3,1
-"450",2017-07-24,"San Jose","Seattle",0,0
-"451",2017-07-27,"Philadelphia","Columbus",3,1
-"452",2017-07-27,"Columbus","Philadelphia",0,0
-"453",2017-07-29,"Atlanta United","Orlando City",1,1
-"454",2017-07-29,"Orlando City","Atlanta United",1,0
-"455",2017-07-30,"New England","Philadelphia",3,1
-"456",2017-07-30,"New York","Montreal",4,1
-"457",2017-07-30,"FC Dallas","Vancouver",0,1
-"458",2017-07-30,"Kansas City","Chicago",3,1
-"459",2017-07-30,"Houston","Portland",2,1
-"460",2017-07-30,"Salt Lake","Columbus",2,1
-"461",2017-07-30,"San Jose","Colorado",1,1
-"462",2017-07-30,"Minnesota United","DC United",4,1
-"463",2017-07-30,"L.A. Galaxy","Seattle",0,1
-"464",2017-07-30,"Toronto","New York City FC",4,1
-"465",2017-07-30,"Philadelphia","New England",0,0
-"466",2017-07-30,"Montreal","New York",0,0
-"467",2017-07-30,"Vancouver","FC Dallas",4,0
-"468",2017-07-30,"Chicago","Kansas City",2,0
-"469",2017-07-30,"Portland","Houston",2,0
-"470",2017-07-30,"Columbus","Salt Lake",2,0
-"471",2017-07-30,"Colorado","San Jose",0,0
-"472",2017-07-30,"DC United","Minnesota United",0,0
-"473",2017-07-30,"Seattle","L.A. Galaxy",0,0
-"474",2017-07-30,"New York City FC","Toronto",0,0
-"475",2017-08-06,"Philadelphia","FC Dallas",3,1
-"476",2017-08-06,"DC United","Toronto",1,1
-"477",2017-08-06,"Montreal","Orlando City",2,1
-"478",2017-08-06,"Minnesota United","Seattle",0,1
-"479",2017-08-06,"Chicago","New England",4,1
-"480",2017-08-06,"Colorado","Vancouver",2,1
-"481",2017-08-06,"Salt Lake","Houston",0,1
-"482",2017-08-06,"San Jose","Columbus",2,1
-"483",2017-08-06,"Portland","L.A. Galaxy",3,1
-"484",2017-08-06,"New York City FC","New York",3,1
-"485",2017-08-06,"FC Dallas","Philadelphia",1,0
-"486",2017-08-06,"Toronto","DC United",1,0
-"487",2017-08-06,"Orlando City","Montreal",1,0
-"488",2017-08-06,"Seattle","Minnesota United",4,0
-"489",2017-08-06,"New England","Chicago",1,0
-"490",2017-08-06,"Vancouver","Colorado",2,0
-"491",2017-08-06,"Houston","Salt Lake",0,0
-"492",2017-08-06,"Columbus","San Jose",1,0
-"493",2017-08-06,"L.A. Galaxy","Portland",1,0
-"494",2017-08-06,"New York","New York City FC",2,0
-"495",2017-08-07,"Kansas City","Atlanta United",1,1
-"496",2017-08-07,"Atlanta United","Kansas City",1,0
-"497",2017-08-12,"Seattle","Kansas City",1,1
-"498",2017-08-12,"Toronto","Portland",4,1
-"499",2017-08-12,"Kansas City","Seattle",0,0
-"500",2017-08-12,"Portland","Toronto",1,0
-"501",2017-08-13,"New York","Orlando City",3,1
-"502",2017-08-13,"Columbus","Chicago",3,1
-"503",2017-08-13,"FC Dallas","Colorado",0,1
-"504",2017-08-13,"New England","Vancouver",1,1
-"505",2017-08-13,"Philadelphia","Montreal",0,1
-"506",2017-08-13,"Houston","San Jose",3,1
-"507",2017-08-13,"L.A. Galaxy","New York City FC",0,1
-"508",2017-08-13,"Orlando City","New York",1,0
-"509",2017-08-13,"Chicago","Columbus",1,0
-"510",2017-08-13,"Colorado","FC Dallas",0,0
-"511",2017-08-13,"Vancouver","New England",0,0
-"512",2017-08-13,"Montreal","Philadelphia",3,0
-"513",2017-08-13,"San Jose","Houston",0,0
-"514",2017-08-13,"New York City FC","L.A. Galaxy",2,0
-"515",2017-08-14,"DC United","Salt Lake",0,1
-"516",2017-08-14,"Salt Lake","DC United",1,0
-"517",2017-08-17,"Montreal","Chicago",3,1
-"518",2017-08-17,"Chicago","Montreal",0,0
-"519",2017-08-19,"Portland","New York",2,1
-"520",2017-08-19,"New York","Portland",0,0
-"521",2017-08-20,"Montreal","Salt Lake",3,1
-"522",2017-08-20,"Orlando City","Columbus",1,1
-"523",2017-08-20,"Chicago","Toronto",1,1
-"524",2017-08-20,"Kansas City","FC Dallas",2,1
-"525",2017-08-20,"Colorado","DC United",0,1
-"526",2017-08-20,"Vancouver","Houston",2,1
-"527",2017-08-20,"San Jose","Philadelphia",2,1
-"528",2017-08-20,"New York City FC","New England",2,1
-"529",2017-08-20,"Salt Lake","Montreal",1,0
-"530",2017-08-20,"Columbus","Orlando City",1,0
-"531",2017-08-20,"Toronto","Chicago",3,0
-"532",2017-08-20,"FC Dallas","Kansas City",0,0
-"533",2017-08-20,"DC United","Colorado",1,0
-"534",2017-08-20,"Houston","Vancouver",1,0
-"535",2017-08-20,"Philadelphia","San Jose",2,0
-"536",2017-08-20,"New England","New York City FC",1,0
-"537",2017-08-21,"Seattle","Minnesota United",2,1
-"538",2017-08-21,"Minnesota United","Seattle",1,0
-"539",2017-08-24,"Columbus","L.A. Galaxy",2,1
-"540",2017-08-24,"DC United","Atlanta United",1,1
-"541",2017-08-24,"FC Dallas","Houston",3,1
-"542",2017-08-24,"Toronto","Philadelphia",3,1
-"543",2017-08-24,"Vancouver","Seattle",1,1
-"544",2017-08-24,"Salt Lake","San Jose",4,1
-"545",2017-08-24,"Portland","Colorado",2,1
-"546",2017-08-24,"L.A. Galaxy","Columbus",0,0
-"547",2017-08-24,"Atlanta United","DC United",0,0
-"548",2017-08-24,"Houston","FC Dallas",3,0
-"549",2017-08-24,"Philadelphia","Toronto",0,0
-"550",2017-08-24,"Seattle","Vancouver",1,0
-"551",2017-08-24,"San Jose","Salt Lake",0,0
-"552",2017-08-24,"Colorado","Portland",1,0
-"553",2017-08-26,"New York","New York City FC",1,1
-"554",2017-08-26,"New York City FC","New York",1,0
-"555",2017-08-27,"DC United","New England",1,1
-"556",2017-08-27,"Philadelphia","Atlanta United",2,1
-"557",2017-08-27,"Columbus","FC Dallas",2,1
-"558",2017-08-27,"Orlando City","Vancouver",1,1
-"559",2017-08-27,"Chicago","Minnesota United",1,1
-"560",2017-08-27,"Salt Lake","Colorado",4,1
-"561",2017-08-27,"Montreal","Toronto",1,1
-"562",2017-08-27,"New England","DC United",0,0
-"563",2017-08-27,"Atlanta United","Philadelphia",2,0
-"564",2017-08-27,"FC Dallas","Columbus",1,0
-"565",2017-08-27,"Vancouver","Orlando City",2,0
-"566",2017-08-27,"Minnesota United","Chicago",2,0
-"567",2017-08-27,"Colorado","Salt Lake",1,0
-"568",2017-08-27,"Toronto","Montreal",3,0
-"569",2017-08-28,"L.A. Galaxy","San Jose",0,1
-"570",2017-08-28,"Seattle","Portland",1,1
-"571",2017-08-28,"San Jose","L.A. Galaxy",3,0
-"572",2017-08-28,"Portland","Seattle",1,0
-"573",2017-09-03,"Montreal","Chicago",0,1
-"574",2017-09-03,"New England","Orlando City",4,1
-"575",2017-09-03,"FC Dallas","New York",2,1
-"576",2017-09-03,"L.A. Galaxy","Colorado",3,1
-"577",2017-09-03,"Chicago","Montreal",1,0
-"578",2017-09-03,"Orlando City","New England",0,0
-"579",2017-09-03,"New York","FC Dallas",2,0
-"580",2017-09-03,"Colorado","L.A. Galaxy",0,0
-"581",2017-09-07,"New York City FC","Kansas City",1,1
-"582",2017-09-07,"Kansas City","New York City FC",0,0
-"583",2017-09-09,"Chicago","New York",1,1
-"584",2017-09-09,"Toronto","San Jose",4,1
-"585",2017-09-09,"New York City FC","Portland",0,1
-"586",2017-09-09,"New York","Chicago",1,0
-"587",2017-09-09,"San Jose","Toronto",0,0
-"588",2017-09-09,"Portland","New York City FC",1,0
-"589",2017-09-10,"DC United","Orlando City",1,1
-"590",2017-09-10,"New England","Montreal",1,1
-"591",2017-09-10,"Minnesota United","Philadelphia",1,1
-"592",2017-09-10,"Houston","Colorado",0,1
-"593",2017-09-10,"Vancouver","Salt Lake",3,1
-"594",2017-09-10,"Columbus","Kansas City",1,1
-"595",2017-09-10,"Atlanta United","FC Dallas",3,1
-"596",2017-09-10,"Orlando City","DC United",2,0
-"597",2017-09-10,"Montreal","New England",0,0
-"598",2017-09-10,"Philadelphia","Minnesota United",1,0
-"599",2017-09-10,"Colorado","Houston",1,0
-"600",2017-09-10,"Salt Lake","Vancouver",2,0
-"601",2017-09-10,"Kansas City","Columbus",1,0
-"602",2017-09-10,"FC Dallas","Atlanta United",0,0
-"603",2017-09-11,"Seattle","L.A. Galaxy",1,1
-"604",2017-09-11,"L.A. Galaxy","Seattle",1,0
-"605",2017-09-14,"Atlanta United","New England",7,1
-"606",2017-09-14,"Vancouver","Minnesota United",3,1
-"607",2017-09-14,"New England","Atlanta United",0,0
-"608",2017-09-14,"Minnesota United","Vancouver",0,0
-"609",2017-09-16,"Atlanta United","Orlando City",3,1
-"610",2017-09-16,"Orlando City","Atlanta United",3,0
-"611",2017-09-17,"Vancouver","Columbus",2,1
-"612",2017-09-17,"Montreal","Minnesota United",2,1
-"613",2017-09-17,"FC Dallas","Seattle",0,1
-"614",2017-09-17,"Chicago","DC United",3,1
-"615",2017-09-17,"Kansas City","New England",3,1
-"616",2017-09-17,"Salt Lake","Portland",2,1
-"617",2017-09-17,"L.A. Galaxy","Toronto",0,1
-"618",2017-09-17,"San Jose","Houston",1,1
-"619",2017-09-17,"New York","Philadelphia",0,1
-"620",2017-09-17,"Colorado","New York City FC",1,1
-"621",2017-09-17,"Columbus","Vancouver",2,0
-"622",2017-09-17,"Minnesota United","Montreal",3,0
-"623",2017-09-17,"Seattle","FC Dallas",0,0
-"624",2017-09-17,"DC United","Chicago",0,0
-"625",2017-09-17,"New England","Kansas City",1,0
-"626",2017-09-17,"Portland","Salt Lake",1,0
-"627",2017-09-17,"Toronto","L.A. Galaxy",4,0
-"628",2017-09-17,"Houston","San Jose",0,0
-"629",2017-09-17,"Philadelphia","New York",0,0
-"630",2017-09-17,"New York City FC","Colorado",1,0
+"1",NA,"Paraguay","Peru",2,1
+"2",NA,"Uruguay","Chile",2,1
+"3",NA,"Argentina","Ecuador",1,1
+"4",NA,"Colombia","Venezuela",3,1
+"5",NA,"Brazil","Bolivia",5,1
+"6",NA,"Bolivia","Argentina",1,1
+"7",NA,"Ecuador","Uruguay",4,1
+"8",NA,"Venezuela","Paraguay",0,1
+"9",NA,"Peru","Brazil",2,1
+"10",NA,"Chile","Colombia",2,1
+"11",NA,"Bolivia","Ecuador",2,1
+"12",NA,"Argentina","Paraguay",1,1
+"13",NA,"Colombia","Uruguay",0,1
+"14",NA,"Chile","Peru",2,1
+"15",NA,"Brazil","Venezuela",1,1
+"16",NA,"Ecuador","Colombia",6,1
+"17",NA,"Venezuela","Chile",2,1
+"18",NA,"Paraguay","Bolivia",2,1
+"19",NA,"Uruguay","Brazil",0,1
+"20",NA,"Peru","Argentina",0,1
+"21",NA,"Bolivia","Venezuela",3,1
+"22",NA,"Uruguay","Paraguay",0,1
+"23",NA,"Argentina","Chile",1,1
+"24",NA,"Peru","Colombia",0,1
+"25",NA,"Brazil","Ecuador",2,1
+"26",NA,"Ecuador","Peru",1,1
+"27",NA,"Venezuela","Uruguay",0,1
+"28",NA,"Colombia","Argentina",2,1
+"29",NA,"Paraguay","Brazil",0,1
+"30",NA,"Chile","Bolivia",1,1
+"31",NA,"Bolivia","Colombia",1,1
+"32",NA,"Ecuador","Paraguay",2,1
+"33",NA,"Venezuela","Argentina",1,1
+"34",NA,"Peru","Uruguay",1,1
+"35",NA,"Chile","Brazil",0,1
+"36",NA,"Ecuador","Chile",0,1
+"37",NA,"Paraguay","Colombia",1,1
+"38",NA,"Uruguay","Bolivia",4,1
+"39",NA,"Peru","Venezuela",1,1
+"40",NA,"Paraguay","Venezuela",2,1
+"41",NA,"Uruguay","Ecuador",1,1
+"42",NA,"Colombia","Chile",3,1
+"43",NA,"Argentina","Bolivia",3,1
+"44",NA,"Brazil","Peru",2,1
+"45",NA,"Uruguay","Colombia",0,1
+"46",NA,"Paraguay","Argentina",0,1
+"47",NA,"Venezuela","Brazil",1,1
+"48",NA,"Ecuador","Bolivia",3,1
+"49",NA,"Peru","Chile",2,1
+"50",NA,"Bolivia","Peru",1,1
+"51",NA,"Venezuela","Ecuador",2,1
+"52",NA,"Colombia","Brazil",0,1
+"53",NA,"Argentina","Uruguay",3,1
+"54",NA,"Chile","Paraguay",2,1
+"55",NA,"Bolivia","Paraguay",4,1
+"56",NA,"Colombia","Ecuador",0,1
+"57",NA,"Argentina","Peru",1,1
+"58",NA,"Chile","Venezuela",3,1
+"59",NA,"Brazil","Uruguay",4,1
+"60",NA,"Ecuador","Venezuela",1,1
+"61",NA,"Paraguay","Chile",0,1
+"62",NA,"Brazil","Colombia",1,1
+"63",NA,"Peru","Bolivia",3,1
+"64",NA,"Uruguay","Argentina",0,1
+"65",NA,"Peru","Paraguay",2,0
+"66",NA,"Chile","Uruguay",1,0
+"67",NA,"Ecuador","Argentina",0,0
+"68",NA,"Venezuela","Colombia",0,0
+"69",NA,"Bolivia","Brazil",0,0
+"70",NA,"Argentina","Bolivia",2,0
+"71",NA,"Uruguay","Ecuador",2,0
+"72",NA,"Paraguay","Venezuela",1,0
+"73",NA,"Brazil","Peru",4,0
+"74",NA,"Colombia","Chile",2,0
+"75",NA,"Ecuador","Bolivia",3,0
+"76",NA,"Paraguay","Argentina",1,0
+"77",NA,"Uruguay","Colombia",3,0
+"78",NA,"Peru","Chile",0,0
+"79",NA,"Venezuela","Brazil",0,0
+"80",NA,"Colombia","Ecuador",1,0
+"81",NA,"Chile","Venezuela",1,0
+"82",NA,"Bolivia","Paraguay",2,0
+"83",NA,"Brazil","Uruguay",2,0
+"84",NA,"Argentina","Peru",2,0
+"85",NA,"Venezuela","Bolivia",1,0
+"86",NA,"Paraguay","Uruguay",0,0
+"87",NA,"Chile","Argentina",1,0
+"88",NA,"Colombia","Peru",3,0
+"89",NA,"Ecuador","Brazil",0,0
+"90",NA,"Peru","Ecuador",2,0
+"91",NA,"Uruguay","Venezuela",0,0
+"92",NA,"Argentina","Colombia",2,0
+"93",NA,"Brazil","Paraguay",2,0
+"94",NA,"Bolivia","Chile",1,0
+"95",NA,"Colombia","Bolivia",1,0
+"96",NA,"Paraguay","Ecuador",0,0
+"97",NA,"Argentina","Venezuela",3,0
+"98",NA,"Uruguay","Peru",1,0
+"99",NA,"Brazil","Chile",1,0
+"100",NA,"Chile","Ecuador",0,0
+"101",NA,"Colombia","Paraguay",1,0
+"102",NA,"Bolivia","Uruguay",2,0
+"103",NA,"Venezuela","Peru",0,0
+"104",NA,"Venezuela","Paraguay",1,0
+"105",NA,"Ecuador","Uruguay",0,0
+"106",NA,"Chile","Colombia",1,0
+"107",NA,"Bolivia","Argentina",0,0
+"108",NA,"Peru","Brazil",0,0
+"109",NA,"Colombia","Uruguay",0,0
+"110",NA,"Argentina","Paraguay",0,0
+"111",NA,"Brazil","Venezuela",3,0
+"112",NA,"Bolivia","Ecuador",0,0
+"113",NA,"Chile","Peru",0,0
+"114",NA,"Peru","Bolivia",0,0
+"115",NA,"Ecuador","Venezuela",1,0
+"116",NA,"Brazil","Colombia",0,0
+"117",NA,"Uruguay","Argentina",0,0
+"118",NA,"Paraguay","Chile",0,0
+"119",NA,"Paraguay","Bolivia",0,0
+"120",NA,"Ecuador","Colombia",0,0
+"121",NA,"Peru","Argentina",0,0
+"122",NA,"Venezuela","Chile",0,0
+"123",NA,"Uruguay","Brazil",1,0
+"124",NA,"Venezuela","Ecuador",0,0
+"125",NA,"Chile","Paraguay",1,0
+"126",NA,"Colombia","Brazil",0,0
+"127",NA,"Bolivia","Peru",0,0
+"128",NA,"Argentina","Uruguay",1,0
