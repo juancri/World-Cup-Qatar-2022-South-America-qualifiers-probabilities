@@ -1,8 +1,8 @@
 ## Calculate the result probabilities for the remaining games on the schedule
 
 ## read in the data needed
-schedule <- data.frame(read.csv('remaining_games.csv', stringsAsFactors = FALSE))
-modeling.data <- data.frame(read.csv('modeling_data.csv', stringsAsFactors = FALSE))
+schedule <- data.frame(read.csv('input/remaining_games.csv', stringsAsFactors = FALSE))
+modeling.data <- data.frame(read.csv('intermediate/modeling_data.csv', stringsAsFactors = FALSE))
 
 ## build the model on all the modeling data
 model <- glm(goals ~ team + opponent + home.adv,
@@ -40,4 +40,4 @@ for (i in seq(1, nrow(schedule))){
 rp <- setNames(data.frame(result.probs), c('hwin','awin','tie'))
 predictions <- cbind.data.frame(schedule, rp)[, c('Home', 'Away', 'hwin', 'awin', 'tie')]
 
-write.csv(predictions, 'predictions.csv')
+write.csv(predictions, 'output/predictions.csv')

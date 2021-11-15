@@ -2,7 +2,7 @@
 library(dplyr)
 
 ###### Put the Modeling Data Together ##################
-results <- data.frame(read.csv('game_info.csv', stringsAsFactors = FALSE))
+results <- data.frame(read.csv('input/game_info.csv', stringsAsFactors = FALSE))
  
 ## now split results so i can build models on it
 home.half <- results[, c('date', 'hteam', 'ateam', 'hfinal')]
@@ -15,5 +15,5 @@ away.half <- setNames(away.half, c('date', 'team', 'opponent', 'goals'))
 away.half$home.adv <- 0
 away.half$date <- as.Date(away.half$date, "%m/%d/%Y")
 final.results <- arrange(rbind.data.frame(home.half, away.half), date)
-write.csv(final.results, 'modeling_data.csv')
+write.csv(final.results, 'intermediate/modeling_data.csv')
 ######################################################

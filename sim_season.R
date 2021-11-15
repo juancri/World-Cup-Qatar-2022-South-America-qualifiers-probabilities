@@ -2,8 +2,8 @@
 library(dplyr)
 library(nnet)
 library(reshape)
-current.points <- data.frame(read.csv('current_points.csv', stringsAsFactors = FALSE))
-sched.pred <- data.frame(read.csv('predictions.csv', stringsAsFactors = FALSE))
+current.points <- data.frame(read.csv('input/current_points.csv', stringsAsFactors = FALSE))
+sched.pred <- data.frame(read.csv('output/predictions.csv', stringsAsFactors = FALSE))
 SimGame <- function(home.prob, away.prob, tie.prob) {
     ran.num <- runif(n = 1)
     if (ran.num <= home.prob) {
@@ -18,7 +18,7 @@ SimGame <- function(home.prob, away.prob, tie.prob) {
 ## this is one season run
 predictions <- matrix(nrow = 10, ncol = 10000)
 for (ind in seq(1,10000)) {
-    pred.points <- current.points 
+    pred.points <- current.points
     for (i in seq(1,nrow(sched.pred))) {
         row <- sched.pred[i, ]
         hteam <- unlist(row[2])
@@ -45,7 +45,7 @@ for (col in seq(1:10000)){
     sup.winner <- pp[which.is.max(pp[, 3+col]), 1]
     sup <- c(sup, sup.winner)
 }
-write.csv(table(sup)/10000*100, 'Supporters Shield Probs.csv')
+write.csv(table(sup)/10000*100, 'output/Supporters Shield Probs.csv')
 
 ## average number of points, and 95 percent confidence intervals
 averages <- c()
@@ -64,7 +64,7 @@ for (row in seq(1:10)){
 }
 p.pred <- cbind.data.frame(pp$team, averages, tops, bottoms)
 p.pred <- setNames(p.pred, c('team', 'average.points', 'upper.range', 'lower.range'))
-write.csv(p.pred, 'Average Point Predictions.csv')
+write.csv(p.pred, 'output/Average Point Predictions.csv')
 
 ## calculate playoff probabilities
 #east <- filter(pp, conference == 'E')
@@ -101,13 +101,13 @@ for (row in seq(1:10)) {
 west.probs <- cbind.data.frame(west$team, playoffs/10000*100)
 west.probs <- arrange(setNames(west.probs, c('team', 'playoff.prob')), -playoff.prob)
 
-playoff.odds <- rbind.data.frame(east.probs, west.probs)
-write.csv(playoff.odds, 'Playoff Probabilities.csv')
+playoff.odds <- west.probs
+write.csv(playoff.odds, 'output/Playoff Probabilities.csv')
 
-write.csv(pp, 'Simmed Season.csv')
+write.csv(pp, 'intermediate/Simmed Season.csv')
 
 ### get the seeding odds for each team
-pp <- data.frame(read.csv('Simmed Season.csv', stringsAsFactors = FALSE))
+pp <- data.frame(read.csv('intermediate/Simmed Season.csv', stringsAsFactors = FALSE))
 pp$X.1 <- NULL
 ## basically, transform the points into seeds by conference for each
 #east <- filter(pp, conference == 'E')
@@ -140,4 +140,4 @@ dt <- data.table(df)
 dt[, value := value/10000]
 full.seeds <- dt[, .(probs = max(value)), by = c('Var.1', 'team')]
 final <- cast(full.seeds, team~Var.1, value='probs')
-write.csv(final, "Seeding Probabilities.csv")
+write.csv(final, "output/Seeding Probabilities.csv")
