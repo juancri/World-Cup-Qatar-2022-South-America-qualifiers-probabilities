@@ -3,7 +3,7 @@ library(dplyr)
 
 ###### Put the Modeling Data Together ##################
 results <- data.frame(read.csv('input/game_info.csv', stringsAsFactors = FALSE))
- 
+
 ## now split results so i can build models on it
 home.half <- results[, c('date', 'hteam', 'ateam', 'hfinal')]
 home.half <- setNames(home.half, c('date', 'team', 'opponent', 'goals'))
@@ -102,12 +102,12 @@ pp <- cbind.data.frame(current.points, predictions)
 ## we've got the 10,000 season predictions, so now lets get summary statistics
 
 ## probability of winning supporters shield:
-sup <- c()
-for (col in seq(1:10000)){
-    sup.winner <- pp[which.is.max(pp[, 3+col]), 1]
-    sup <- c(sup, sup.winner)
-}
-write.csv(table(sup)/10000*100, 'output/Supporters Shield Probs.csv')
+# sup <- c()
+# for (col in seq(1:10000)){
+#     sup.winner <- pp[which.is.max(pp[, 3+col]), 1]
+#     sup <- c(sup, sup.winner)
+# }
+# write.csv(table(sup)/10000*100, 'output/Supporters Shield Probs.csv')
 
 ## average number of points, and 95 percent confidence intervals
 averages <- c()
@@ -154,7 +154,7 @@ playoffs <- c()
 for (row in seq(1:10)) {
     po <- 0
     for (col in seq(4:10003)) {
-        if (rank(west[, col], ties = 'random')[row] >= 6){
+        if (rank(west[, col], ties = 'random')[row] >= 7){
             po <- po + 1
         }
     }
@@ -183,7 +183,7 @@ set.seed(6564)
 #    east[, col] <- 12-rank(east[, col], ties.method = 'random')
 #}
 for (col in seq(5,10004)) {
-    west[, col] <- 12-rank(west[, col], ties.method = 'random')
+    west[, col] <- 11-rank(west[, col], ties.method = 'random')
 }
 
 df <- data.frame()
