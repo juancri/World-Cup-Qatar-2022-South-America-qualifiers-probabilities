@@ -1,27 +1,33 @@
 ## do the 2017 data prep for playoff probs
-library(dplyr)
 
 ###### Put the Modeling Data Together ##################
-results <- data.frame(read.csv('input/game_info.csv', stringsAsFactors = FALSE))
+results <- read.csv('input/game_info.csv')
 
 ## now split results so i can build models on it
-home.half <- results[, c('date', 'hteam', 'ateam', 'hfinal')]
-home.half <- setNames(home.half, c('date', 'team', 'opponent', 'goals'))
-home.half$home.adv <- 1
-home.half$date <- as.Date(home.half$date, "%Y-%m-%d")
+home.half <- subset(results, select = c(date, hteam, ateam, hfinal))
+names(home.half) <- c('date', 'team', 'opponent', 'goals')
+home.half <- within(home.half, {
+    home.adv <- 1
+    date <- as.Date(date)
+})
+
 ## set up away half of teams
-away.half <- results[, c('date', 'ateam', 'hteam', 'afinal')]
-away.half <- setNames(away.half, c('date', 'team', 'opponent', 'goals'))
-away.half$home.adv <- 0
-away.half$date <- as.Date(away.half$date, "%Y-%m-%d")
-final.results <- arrange(rbind.data.frame(home.half, away.half), date)
+away.half <- subset(results, select = c(date, ateam, hteam, afinal))
+names(away.half) <- c('date', 'team', 'opponent', 'goals')
+away.half <- within(away.half, {
+    home.adv <- 0
+    date <- as.Date(date)
+})
+
+final.results <- rbind(home.half, away.half)
+final.results <- final.results[order(final.results$date),]
 write.csv(final.results, 'intermediate/modeling_data.csv')
 ######################################################
 ## Calculate the result probabilities for the remaining games on the schedule
 
 ## read in the data needed
-schedule <- data.frame(read.csv('input/remaining_games.csv', stringsAsFactors = FALSE))
-modeling.data <- data.frame(read.csv('intermediate/modeling_data.csv', stringsAsFactors = FALSE))
+schedule <- read.csv('input/remaining_games.csv')
+modeling.data <- read.csv('intermediate/modeling_data.csv')
 
 ## build the model on all the modeling data
 model <- glm(goals ~ team + opponent + home.adv,
