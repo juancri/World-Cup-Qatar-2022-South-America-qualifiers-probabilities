@@ -10,7 +10,7 @@ This project is just a modification of [2017-playoff-probabilities](https://gith
 
 ## Current probabilities
 
-These are the current probabilities (11/15/2021) after match day 13 and 1 match pending between Brazil and Argentina.
+These are the current probabilities (11/17/2021) after match day 14 and 1 match pending between Brazil and Argentina.
 
 ### Matches
 
