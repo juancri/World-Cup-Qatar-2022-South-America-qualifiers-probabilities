@@ -66,12 +66,13 @@ rp <- setNames(data.frame(result.probs), c('hwin','awin','tie'))
 predictions <- cbind.data.frame(schedule, rp)[, c('Home', 'Away', 'hwin', 'awin', 'tie')]
 
 write.csv(predictions, 'output/predictions.csv')
+
 ## simulate the remaining games in the season
 library(dplyr)
 library(nnet)
 library(reshape)
-current.points <- data.frame(read.csv('input/current_points.csv', stringsAsFactors = FALSE))
-sched.pred <- data.frame(read.csv('output/predictions.csv', stringsAsFactors = FALSE))
+current.points <- read.csv('input/current_points.csv')
+sched.pred <- read.csv('output/predictions.csv')
 SimGame <- function(home.prob, away.prob, tie.prob) {
     ran.num <- runif(n = 1)
     if (ran.num <= home.prob) {
