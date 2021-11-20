@@ -85,25 +85,27 @@ SimGame <- function(home.prob, away.prob, tie.prob) {
 }
 
 ## this is one season run
-predictions <- matrix(nrow = 10, ncol = 10000)
-for (ind in seq(1,10000)) {
+single_sim <- function() {
     pred.points <- current.points
-    for (i in seq(1,nrow(sched.pred))) {
-        row <- sched.pred[i, ]
-        hteam <- unlist(row[2])
-        ateam <- unlist(row[3])
-        result <- SimGame(unlist(row[4]), unlist(row[5]), unlist(row[6]))
-        if (result == 'Home') {
-            pred.points[pred.points$team == hteam, 2] <- pred.points[pred.points$team == hteam, 2] + 3
-        } else if (result == 'Away'){
-            pred.points[pred.points$team == ateam, 2] <- pred.points[pred.points$team == ateam, 2] + 3
+    sched.sim <- sched.pred
+    sched.sim$result <- apply(sched.sim, 1, FUN = function(row) {
+        result <- SimGame(as.numeric(row['hwin']), 
+                          as.numeric(row['awin']), 
+                          as.numeric(row['tie']))})
+    
+    apply(sched.sim, 1, FUN = function(row) {
+        if (row['result'] == 'Home') {
+            pred.points$points[pred.points$team == row['Home']] <<- pred.points$points[pred.points$team == row['Home']] + 3
+        } else if (row['result'] == 'Away'){
+            pred.points$points[pred.points$team == row['Away']] <<- pred.points$points[pred.points$team == row['Away']] + 3
         } else {
-            pred.points[pred.points$team == hteam, 2] <- pred.points[pred.points$team == hteam, 2] + 1
-            pred.points[pred.points$team == ateam, 2] <- pred.points[pred.points$team == ateam, 2] + 1
+            pred.points$points[pred.points$team == row['Home']] <<- pred.points$points[pred.points$team == row['Home']] + 1
+            pred.points$points[pred.points$team == row['Away']] <<- pred.points$points[pred.points$team == row['Away']] + 1
         }
-    }
-    predictions[, ind] <- pred.points$points
+    })
 }
+
+predictions <- replicate(10000, single_sim(), simplify = 'array')
 
 pp <- cbind.data.frame(current.points, predictions)
 ## we've got the 10,000 season predictions, so now lets get summary statistics
