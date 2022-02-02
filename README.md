@@ -17,7 +17,7 @@ Rscript run.R
 
 ## Current probabilities
 
-These are the current probabilities (01/29/2021) after match day 15 and 1 match pending between Brazil and Argentina.
+These are the current probabilities (02/02/2022) after match day 16 and 1 match pending between Brazil and Argentina.
 
 ### Matches
 
